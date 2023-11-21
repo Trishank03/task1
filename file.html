@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fontawseome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./images/img1.png">
+    <!--css file-->
+    <link rel="stylesheet" href="./file.css">
+    <title>Catering Business</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid " style="background-color: bisque;">
+        <div class="home" id="home">
+
+            <div class="row row-cols-auto m-auto p-auto">
+
+                <div class="col-6 col-md-2 col-lg-2 pt-3">
+                    <i class="fa-sharp fa-solid fa-utensils  fa-2x " style="color: #1ec884;"></i>
+                    <i class="fa-solid fa-mug-hot  fa-2x mx-3" style="color: #1ec884;"></i>
+                </div>
+                <div class="col-6 col-md-5 col-lg-5 pt-md-1 pt-sm-3">
+                    <h1>Spicy Catering</h1>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-5 pt-3 " id="homelink">
+                    <ul class="fw-bold">
+                        <li><a href="#home"> Home </a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="slideshow">
+                <!-- Images with the class "slide" -->
+                <img class="slide" src="./images/img1.png" alt="Slide 1">
+                <img class="slide" src="images/img2.png" alt="Slide 2">
+                <img class="slide" src="./images/img4.jpg" alt="Slide 3">
+                <!-- Add more images as needed -->
+                <!-- Navigation arrows -->
+                <button class="arrow arrow-left" onclick="prevSlide()">&#10094;</button>
+                <button class="arrow arrow-right" onclick="nextSlide()">&#10095;</button>
+
+            </div>
+        </div>
+
+        <div class="about p-5" id="about" style="background-color: rgb(177, 229, 157); ">
+            <div class="container">
+                <h1 class="pt-3" style="text-align: center;"> About Us</h1>
+                <div class="row pt-3">
+                    <div class="col-md-6">
+                        <p>
+                            At Spicy Catering, we are passionate about creating extraordinary culinary experiences. With
+                            a team of skilled chefs and event specialists,
+                            we take pride in delivering impeccable service and surpassing our clients' expectations.At
+                            Spicy Catering, we specialize in creating unforgettable
+                            culinary experiences. Whether you're planning a corporate event, wedding, or social
+                            gathering, our team of talented chefs and experienced staff will work closely
+                            with you to design a menu that reflects your unique taste and style.
+
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/img5.jpeg" alt="img-5" width="80%" height="250px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services bg-warning p-5" id="services">
+            <div class="container">
+                <h1>Our Services</h1>
+                <div class="row  pt-3  ">
+                    <div class="col-md-5 box mt-3">
+                        <h1>WEDDING CATERING</h1>
+                        <P>Make your special day unforgettable with our tailored wedding catering services.
+                            From elegant hors d'oeuvres to decadent wedding cakes,
+                            we'll create a culinary experience that reflects your unique style.
+                        </P>
+                    </div>
+                    <div class="col-md-5 box mt-3">
+                        <h1>CORPERATE EVENTS</h1>
+                        <p>
+                            Impress your clients and colleagues with our sophisticated corporate event catering. From
+                            intimate boardroom
+                            luncheons to grand business galas, we offer diverse menu options and impeccable service.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-5 box mt-3 ">
+                        <h1>SPECIAL OCCASIONS</h1>
+                        <p> Celebrate life's milestones with our exceptional catering services.
+                            Whether it's a birthday, anniversary, or family reunion,
+                            From elegant hors d'oeuvres to decadent wedding cakes
+                            we'll create a customized menu to suit your taste and ensure a memorable experience.</p>
+                    </div>
+                    <div class="col-md-5 box mt-3">
+                        <h1>SOCIAL GATHERINGS</h1>
+                        <p>
+                            As a company, we love a good party. Which is why we should be your number one choice to
+                            cater your event.
+                            Galas, birthdays, bar mitzvahs, house parties, you name it, we’ve done it.
+                            Plus our GASTROTRUCK is the perfect restaurant on-wheels to make your party a HIT with your
+                            friends.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact pt-3" id="contact" style="background-color: greenyellow;">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="row pb-5 pt-5 px-auto ">
+
+                    <div class="col b1">
+                        <h1>Address</h1>
+                        <p>street-No-3,Balaji Nagar,Hyderabad</p>
+                    </div>
+                    <div class="col b1">
+                        <h1>Phone</h1>
+                        <p>+91-1234567890</p>
+                    </div>
+                    <div class="col b1">
+                        <h1>Email</h1>
+                        <p>spicycatering@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="text-align: center;">
+            <p>&COPY;2023 Spicy Catering. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="file.js"></script>
+</body>
+
+</html>
